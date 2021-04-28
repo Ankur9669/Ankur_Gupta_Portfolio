@@ -41,3 +41,29 @@ body{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+.navigation{
+    padding: 0.5rem 0.5rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 0.6rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: 600;
+    font-size: large;
+}
+
+.navigation .link{
+    color: black;
+}
+
+.navigation .link-active{
+    font-weight: 600;
+    background-color: lavender;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+}
