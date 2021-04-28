@@ -4,6 +4,7 @@
     --primary-color: #FB7185;
     --secondary-color: #FB7185;
     --dark-gray: #334155;
+    --section-gray-color:#E2E8F0;
 }
 hr{
     margin: 2rem 0rem;
@@ -85,4 +86,21 @@ body{
     font-size: 3rem;
     color:  var(--dark-gray);
     text-align: center; 
+}
+
+/* Section */
+.section-gray{
+    padding: 1rem 1rem;
+    background-color: var(--section-gray-color);
+    max-width: 50%;
+    border-radius: 1rem;
+}
+.section-white{
+    padding: 1rem 1rem;
+    max-width: 50%;
+    border-radius: 1rem;
+}
+
+.section-text{
+    text-align: center;
 }
