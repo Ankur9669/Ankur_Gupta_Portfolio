@@ -2,7 +2,8 @@
 
 :root{
     --primary-color: #FB7185;
-    --secondary-color: #FB7185
+    --secondary-color: #FB7185;
+    --dark-gray: #334155;
 }
 hr{
     margin: 2rem 0rem;
@@ -66,4 +67,22 @@ body{
     background-color: lavender;
     border-radius: 2rem;
     padding: 1rem 1rem;
+}
+
+/* Hero Styling*/
+.hero{
+    padding: 1rem;
+}
+
+.hero .hero-image{
+    margin: auto;
+    max-width: 40%;
+    display: block;
+}
+
+.hero .hero-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    color:  var(--dark-gray);
+    text-align: center; 
 }
