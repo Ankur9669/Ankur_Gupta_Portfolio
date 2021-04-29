@@ -57,6 +57,7 @@ body{
 
 .navigation .nav-pills{
     text-align: right;
+    margin-right: 1rem;
 }
 
 .navigation .nav-brand{
