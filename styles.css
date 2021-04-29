@@ -82,7 +82,8 @@ body{
 
 .header .header-image{
     margin: auto;
-    max-width: 50%;
+    max-width: 40%;
+    max-height: 50%;
     display: block;
     padding: 2rem 1rem
 }
