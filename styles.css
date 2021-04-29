@@ -101,6 +101,7 @@ body{
 /* Section */
 
 .section-about-me{
+    padding: 1rem 1rem;
     background-color: var(--secondary-color);
     text-align: center;
 }
