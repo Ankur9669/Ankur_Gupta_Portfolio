@@ -4,6 +4,7 @@
     --secondary-color: #34D399;
     --dark-gray: #334155;
     --section-gray-color:#E2E8F0; 
+    --text-color: #FFFAFA;
 }
 hr{
     margin: 2rem 0rem;
@@ -12,7 +13,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     margin: 0px;
     background-color: #121212;
-    color: #FFFAFA;
+    
 }
 .container{
     padding-left: 1rem;
@@ -106,7 +107,7 @@ body{
     text-align: center;
 }
 .section-about-me .section-heading{
-    color:black;
+    color:var(--text-color);
     font-weight: 700;
     padding: 1rem;
     text-align: center;
@@ -115,22 +116,11 @@ body{
 }
 
 .section .section-text{
-    font-size: 1rem;
-    
-}
-.section-gray{
-    padding: 1rem 1rem;
-    background-color: var(--section-gray-color);
-    border-radius: 1rem;
-}
-.section-white{
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: black
 }
 
-.section-text{
-    text-align: center;
-}
 
 /* footer */
 .footer{
