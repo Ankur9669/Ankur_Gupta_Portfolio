@@ -84,6 +84,7 @@ body{
     margin: auto;
     max-width: 40%;
     display: block;
+    padding: 2rem 1rem
 }
 
 .header .header-heading{
