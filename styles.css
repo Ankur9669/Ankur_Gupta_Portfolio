@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 
 :root{
-    --primary-color: #FB7185;
+    --primary-color: #10B981;
     --secondary-color: #FB7185;
     --dark-gray: #334155;
-    --section-gray-color:#E2E8F0;
+    --section-gray-color:#E2E8F0; 
 }
 hr{
     margin: 2rem 0rem;
 }
 body{
-    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0px;
     background-color: #121212;
     color: blanchedalmond;
@@ -66,14 +66,14 @@ body{
 }
 
 .navigation .link{
-    color: black;
+    color: blanchedalmond;
 }
 
 .navigation .link-active{
-    font-weight: 600;
-    background-color: lavender;
-    border-radius: 2rem;
-    padding: 1rem 1rem;
+    font-weight: 900;
+    border: 2px solid blanchedalmond;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 /* Hero Styling*/
