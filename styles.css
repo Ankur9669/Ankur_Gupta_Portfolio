@@ -11,6 +11,7 @@ hr{
 }
 body{
     font-family: 'Merriweather', serif;
+    margin: 0px;
 }
 .container{
     padding-left: 1rem;
@@ -19,6 +20,9 @@ body{
 .container-center{
     text-align: center;
     margin: auto;
+}
+.link{
+    text-decoration: none;
 }
 .primary-link{
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
@@ -92,15 +96,34 @@ body{
 .section-gray{
     padding: 1rem 1rem;
     background-color: var(--section-gray-color);
-    max-width: 50%;
     border-radius: 1rem;
 }
 .section-white{
     padding: 1rem 1rem;
-    max-width: 50%;
     border-radius: 1rem;
 }
 
 .section-text{
     text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer-header{
+    text-align: center;
+    color: white;
+}
+
+.list-footer{
+    text-align: center;
+    margin-block-start: 0em;
+}
+
+.footer .link{
+    color: white;
 }
