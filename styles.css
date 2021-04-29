@@ -58,7 +58,6 @@ body{
 .navigation .nav-pills{
     text-align: right;
     margin-right: 3rem;
-    padding: 0.5rem 0.5rem;
 }
 
 .navigation .nav-brand{
@@ -100,6 +99,22 @@ body{
 }
 
 /* Section */
+
+.section-about-me{
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+.section-about-me .section-heading{
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.section .section-text{
+    font-size: 1rem;
+    
+}
 .section-gray{
     padding: 1rem 1rem;
     background-color: var(--section-gray-color);
