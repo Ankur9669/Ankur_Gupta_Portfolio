@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
 :root{
     --primary-color: #10B981;
-    --secondary-color: #FB7185;
+    --secondary-color: #34D399;
     --dark-gray: #334155;
     --section-gray-color:#E2E8F0; 
 }
@@ -76,17 +76,17 @@ body{
 }
 
 /* Hero Styling*/
-.hero{
+.header{
     padding: 1rem;
 }
 
-.hero .hero-image{
+.header .header-image{
     margin: auto;
     max-width: 40%;
     display: block;
 }
 
-.hero .hero-heading{
+.header .header-heading{
     font-weight: 700;
     font-size: 3rem;
     color:  var(--dark-gray);
