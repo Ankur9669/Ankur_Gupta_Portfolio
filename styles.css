@@ -135,6 +135,18 @@ body{
     font-weight: 700;
 }
 
+.section-projects .section-button{
+    background-color: #121212;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 
 /* footer */
 .footer{
