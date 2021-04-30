@@ -118,6 +118,23 @@ body{
     color: black
 }
 
+.section-known-technologies{
+    color: #FFFAFA;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.section-known-technologies .section-heading{
+    color: var(--primary-color);
+    font-weight: 1000;
+    font-size: 3rem;
+}
+
+.section-known-technologies .section-text{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
 
 /* footer */
 .footer{
