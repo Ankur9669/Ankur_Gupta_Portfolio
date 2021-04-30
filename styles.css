@@ -161,3 +161,19 @@ body{
 .footer .link{
     color: white;
 }
+
+.footer .footer-header{
+    color: var(--text-color);
+    font-weight: 1000;
+    font-size: 3rem;
+}
+
+.footer .icon{
+    width: 3em;
+    height: 3em;
+}
+
+.footer .footer-list{
+    text-align: center;
+}
+
