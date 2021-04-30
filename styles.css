@@ -171,6 +171,7 @@ body{
 .footer .icon{
     width: 3em;
     height: 3em;
+    margin-right: 1.5rem;
 }
 
 .footer .footer-list{
