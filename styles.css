@@ -14,30 +14,9 @@ body{
     margin: 0px;
     background-color: #121212;   
 }
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.container-center{
-    text-align: center;
-    margin: auto;
-}
+
 .link{
     text-decoration: none;
-}
-.primary-link{
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-    text-decoration: none;
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 2px solid var(--primary-color);
-    color: #701A75;
-}
-.secondary-link{
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-    text-decoration: none;
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
 }
 
 .list-non-bulleted{
