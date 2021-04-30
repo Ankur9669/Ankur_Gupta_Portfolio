@@ -137,6 +137,7 @@ body{
 
 .section-projects .section-button{
     background-color: #121212;
+    border: 2px solid var(--primary-color);
     padding: 0.5rem 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -149,7 +150,7 @@ body{
 
 .section-blogs .section-button{
     background-color: var(--primary-color);
-    border: 14px solid var(#121212);
+    border: 2px solid var(#121212);
     padding: 0.5rem 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
