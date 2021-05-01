@@ -171,6 +171,8 @@ body{
     color: #FFFAFA;
     text-align: center;
     font-weight: 700;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .blogs-list-item-bg-black{
