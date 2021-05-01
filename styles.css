@@ -188,9 +188,9 @@ body{
     border-radius: 2rem;
 }
 
-.projects-list{
-    
-    padding-inline-start: 0px;
+.projects-list{   
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
 }
 
 .blogs-project-title-bg-black{
