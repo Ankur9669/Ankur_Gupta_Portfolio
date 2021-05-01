@@ -79,42 +79,42 @@ body{
 
 /* Section */
 
-.section-about-me{
+.section-background-green{
     padding: 1rem 1rem;
     background-color: var(--secondary-color);
     text-align: center;
 }
-.section-about-me .section-heading{
+.section-background-green .section-heading{
     color:var(--text-color);
     font-weight: 1000;
     text-align: center;
     font-size: 3rem;
 }
 
-.section-about-me .section-text{
+.section-background-green .section-text{
     font-size: 1.3rem;
     font-weight: 700;
     color: black
 }
 
-.section-known-technologies{
+.section-background-black{
     color: #FFFAFA;
     padding: 1rem 1rem;
     text-align: center;
 }
 
-.section-known-technologies .section-heading{
+.section-background-black .section-heading{
     color: var(--primary-color);
     font-weight: 1000;
     font-size: 3rem;
 }
 
-.section-known-technologies .section-text{
+.section-background-black .section-text{
     font-size: 1.3rem;
     font-weight: 700;
 }
 
-.section-projects .section-button{
+.button-bg-green{
     background-color: #121212;
     border: 2px solid var(--primary-color);
     padding: 0.5rem 0.5rem;
@@ -127,7 +127,7 @@ body{
     font-size: 1rem;
 }
 
-.section-blogs .section-button{
+.button-bg-black{
     background-color: var(--primary-color);
     border: 2px solid var(#121212);
     padding: 0.5rem 0.5rem;
@@ -166,4 +166,28 @@ body{
     text-align: center;
     margin-block-start: 0em;
 }
+
+.blogs-heading{
+    color: #FFFAFA;
+    text-align: center;
+    font-weight: 700;
+}
+
+.blogs-list-item-bg-black{
+    color: var(--primary-color);
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.blogs-project-title-bg-black{
+    color: var(--primary-color);
+}
+
+.blogs-projects-bg-black-text{
+    color: #FFFAFA;
+    font-size: 1rem;
+}
+
+
 
