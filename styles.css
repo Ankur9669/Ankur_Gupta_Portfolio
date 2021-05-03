@@ -203,5 +203,12 @@ body{
     font-size: 1rem;
 }
 
+.blogs-background-green .section-heading{
+    font-size: 2rem;
+}
+
+.blogs-background-black .section-heading{
+    font-size: 2rem;
+}
 
 
