@@ -61,6 +61,7 @@ body{
 /* Hero Styling*/
 .header{
     padding: 1rem;
+    margin: 1rem;
 }
 
 .header .header-image{
@@ -81,7 +82,12 @@ body{
 }
 
 /* Section */
-
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .section-background-green{
     padding: 1rem 1rem;
     background-color: var(--secondary-color);
@@ -92,6 +98,9 @@ body{
     font-weight: 1000;
     text-align: center;
     font-size: 3rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 8px black;
 }
 
 .section-background-green .section-text{
@@ -110,6 +119,9 @@ body{
     color: var(--primary-color);
     font-weight: 1000;
     font-size: 3rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 8px red;
 }
 
 .section-background-black .section-text{
@@ -178,6 +190,7 @@ body{
     padding: 1rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px var(--secondary-color);
 }
 
 .blogs-list-item-bg-black{
