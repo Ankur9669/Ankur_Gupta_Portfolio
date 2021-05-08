@@ -11,7 +11,10 @@ hr{
 }
 body{
     font-family: 'Quicksand', sans-serif;
-    background-color: #121212;   
+    background-color: #121212;  
+    max-width: 600px;
+    width: 100%; 
+    margin: auto;
 }
 
 .link{
