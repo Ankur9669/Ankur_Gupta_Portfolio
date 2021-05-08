@@ -11,8 +11,9 @@ hr{
 }
 body{
     font-family: 'Quicksand', sans-serif;
-    margin: 0px;
     background-color: #121212;   
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .link{
