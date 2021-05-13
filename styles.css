@@ -17,6 +17,14 @@ body{
     margin: auto;
 }
 
+.link-bg-green{
+    color: var(--text-color);
+}
+
+.link-bg-black{
+    color: #121212;
+}
+
 .link{
     text-decoration: none;
 }
